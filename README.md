@@ -15,35 +15,35 @@ Task for new members of PUT Motorsport Driverless group. It consists three subta
 ## Requirements
 - Ubuntu 18.04
 - ROS Melodic
-```console
+```bash
 sudo apt install ros-melodic-desktop-full
 ```
 - cv_bridge
-```console
+```bash
 sudo apt install ros-melodic-cv-bridge
 ```
-- reqirements.txt
-```console
-pip install -r reqirements.txt
+- requirements.txt 
+```bash
+pip install -r requirements.txt 
 ```
 
 ## Configuration
 
 ### Make ROS workspace and get recruitment task repository
-```console
+```bash
 mkdir -p ~/dv_ws/src
 cd ~/dv_ws/src
 git clone https://github.com/PUT-Motorsport/PUTM_DV_recruitment_task_2020.git dv_task/
 ```
 
 ### Build workspace
-```console
+```bash
 cd ~/dv_ws
 catkin_make
 source devel/setup.bash
 ```
 
 ### Run node
-```console
+```bash
 roslaunch dv_task camera.launch
 ```
