@@ -10,7 +10,7 @@ Task for new members of PUT Motorsport Driverless group. It consists three subta
 3. [Workspace and project configuration](#configuration)
 
 ## Results of task
-![results](./README_files/results.png)
+
 
 ## Requirements
 - Ubuntu 18.04
